@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    background-color: #6d43ec;
+}
+
+.hLeft{
+    font-size: 25pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eeeeee;
+}
+
+.hLeft p{
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eeeeee;
+    font-family: 'Permanent Marker', cursive;
+}
+.hLeft img{
+    padding-left: 30px;
+}
+
+.hRight{
+    padding-left: 10px;
+    font-size: 25pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #ccccff;
+}
+
+.nav p{
+    padding-left: 15px;
+    font-size: 15pt;
+    display: flex;
+    align-items: end;
+    height: 75%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.label{
+    width: 100%;
+    height: 50px;
+}
+
+
+.cLeft{
+    width: 70%;
+    font-size: 20pt;
+    height: 500px;
+    color: #595959;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bline{
+    width: 100%;
+    height: 10px;
+    background-color: #6d43ec;
+
+}
+
+
+.cRight{
+    width: 30%;
+    height: 500px;
+    background-color: #ccccff;
+}
+
+.cRight ul{
+    font-size: 25pt;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.level1{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.level2{
+    margin-left: 40px;
+
+}
+
+.cell{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 30%;
+    height: 200px;
+    background-color: #ccccff;
+}
+.cell mark{
+    background-color: #aa9cc2;
+}
+
+.cell p{
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+}
+.footer{
+    margin-right: 10pt;
+    height: 120px;
+    background-color: #6d43ec;
+}
+
+.footer p{
+    padding-left: 45px;
+    font-size: 17pt;
+    display: flex;
+    align-items: end;
+    height: 70%;
+    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
